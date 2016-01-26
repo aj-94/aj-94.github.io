@@ -1,5 +1,5 @@
 body {
-  margin: 20px;
+  margin: 70px;
 }
 
 * {
@@ -7,7 +7,15 @@ body {
 }
 
 #wrapper {
-  border: 2px dotted slategray;
-  width: 800px;
+  border: 2px dashed slategray;
+  width: 1000px;
   margin: 0 auto;
 }
+
+.btn { border-radius: 5px;
+    display: inline-block;
+    margin: 10;
+    color:black;
+}
+
+.btn-alt { border: 2px solid; color:crimson}

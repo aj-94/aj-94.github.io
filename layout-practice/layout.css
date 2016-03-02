@@ -83,3 +83,14 @@ color: white;
 text-align: center;
 padding: 50px;
 }
+
+footer {
+    display: flex;
+    background: skyblue;
+}
+
+.footer-links{}
+
+.footer-copyright {
+text-align: right;
+}

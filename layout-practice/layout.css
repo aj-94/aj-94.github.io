@@ -5,10 +5,11 @@
 .main-container {
     width: 1000px;
     margin: 0 auto 0 auto;
+    background: black;
 }
 
 .promo-container{
-    background: lightgray;
+    background: teal;
 }
 
 header {
@@ -22,12 +23,19 @@ header {
     margin-right: auto;
 }
 
+h1 
+{font-family: 'Abel', sans-serif; font-weight: 100;
+}
+
+p{font-family: 'Droid Sans', sans-serif;}
+
 .pill-button {
     display:inline-block;
-    background: gray;
+    background:white;
+    margin-top: 10px;
     padding: 10px 30px;
-    border-radius: 20px;
-    color: white;
+    border-radius: 100px;
+    color: teal;
     text-decoration: none;
 }
 
@@ -40,10 +48,12 @@ header {
 /* Big Promo */
 
 #big-promo {
-    padding-top: 200px;
+    padding-top: 100px;
 }
 
 .promo-message {
+    margin: 200px;
+   text-align: center;
     width: 60%;
     padding: 50px;
 }
@@ -78,7 +88,7 @@ align-items: center;
 /* Product Reviews */
 
 #product-reviews{
-background: skyblue;
+background: teal;
 color: white;
 text-align: center;
 padding: 50px;
@@ -86,7 +96,7 @@ padding: 50px;
 
 footer {
     display: flex;
-    background: skyblue;
+    background: teal;
 }
 
 .footer-links{}

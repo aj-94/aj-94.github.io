@@ -9,7 +9,8 @@
 }
 
 .promo-container{
-    background: teal;
+    background: black;
+    color: white;
 }
 
 header {
@@ -24,7 +25,7 @@ header {
 }
 
 h1 
-{font-family: 'Abel', sans-serif; font-weight: 100;
+{font-family: 'Abel', sans-serif; font-weight: 100; color: white;
 }
 
 p{font-family: 'Droid Sans', sans-serif;}
@@ -33,11 +34,27 @@ p{font-family: 'Droid Sans', sans-serif;}
     display:inline-block;
     background:white;
     margin-top: 10px;
+    margin-right: 10px;
     padding: 10px 30px;
     border-radius: 100px;
     color: teal;
     text-decoration: none;
+    -webkit-transition-duration: 0.4s; /*Safari*/
+    transition-duration: 0.4s;
 }
+
+.pill-button:hover {
+    background-color: black;
+    color: white;
+}
+
+
+div.img {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}	
 
 .promo{
     background: white;
@@ -79,6 +96,7 @@ p{font-family: 'Droid Sans', sans-serif;}
 
 .product-buy-it-now{
 align-items: center;
+margin-left: 225px;
 }
 
 .product-info{
@@ -88,7 +106,7 @@ align-items: center;
 /* Product Reviews */
 
 #product-reviews{
-background: teal;
+background: black;
 color: white;
 text-align: center;
 padding: 50px;
@@ -96,10 +114,8 @@ padding: 50px;
 
 footer {
     display: flex;
-    background: teal;
+    background: black;
 }
-
-.footer-links{}
 
 .footer-copyright {
 text-align: right;

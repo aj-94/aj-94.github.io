@@ -6,6 +6,7 @@
     width: 1000px;
     margin: 0 auto 0 auto;
     background: black;
+    color: white;
 }
 
 .promo-container{
@@ -19,6 +20,7 @@ header {
 
 .branding {
     background:black;
+    color:white;
     width:150px;
     height:45px;
     margin-right: auto;

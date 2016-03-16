@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    background: teal;
+    background:teal;
 }
 
 .main-container {
@@ -9,9 +9,7 @@
     background: teal;
 }
 
-
-
-.promo-container{
+.button-container{
     background: teal;
     color: black;
 }
@@ -71,13 +69,11 @@ div.img {
     font-size: 18px;
 }
 
-/* Big Promo */
-
 #big-promo {
     padding-top: 100px;
 }
 
-.promo-message {
+.message {
     margin: 200px;
    text-align: center;
     width: 60%;
@@ -134,38 +130,18 @@ margin-right: 200px;
     padding-top: 50px;
 }
 
-/* Product Reviews */
-
-#product-reviews{
+/*#product-reviews{
 background: teal;
 color: white;
 text-align: center;
 padding: 50px;
-}
+}*/
 
 .feature-text{
     margin-left: 470px;
     text-align: center;
     width: 500px;
     }
-
-#box_one {
-    margin-left: 350px;
-    display:inline-flex;
-    width: 240px;
-    height: 400px;
-    border: 2px solid black;}
-#box_two {
-    display:inline-flex;
-    width: 240px;
-    height: 400px;
-    border: 2px solid black;}
-#box_three {
-    display:inline-flex;
-    width: 240px;
-    height: 400px;
-    border: 2px solid black;}
-
 #wrapper {
   border: 2px solid black;
   width: 500px;
@@ -173,16 +149,30 @@ padding: 50px;
 padding: 10px
 }
 
+.prices{display: inline-block;
+margin-left:200px;}
+
 .NC{
 text-align: center;
 font-size: 40px;
 }
 
 .blog-image{
-    float: right;}
+    float: right;
+    padding: 5px;}
+.bb-image{
+    float: left;
+    padding: 5px;}
+
+.feature-pic{
+    margin-left: 900px;
+    display: flex;
+    justify-content: flex-end;
+}
+
 
 footer {
-    padding-top: 100px;
+    padding-top: 50px;
     text-align: right;
     margin: 10px;
     background: teal;

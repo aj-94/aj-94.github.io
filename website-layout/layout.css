@@ -80,7 +80,11 @@ div.img {
     padding: 50px;
 }
 
-/* Porduct Features */
+.signuppic{
+    display:inline-flex;
+    margin-right: 10px;
+    
+}
 
 .product-features, .product-buy-it-now {
     display: flex;
